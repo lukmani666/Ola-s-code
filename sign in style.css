@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: url(file:///C:/Users/pc/Downloads/car%201.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: auto;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.navbar {
+    background: black;
+    color: white;
+    height: 80px;
+}
+
+nav img {
+    background: white;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 500px;
+    cursor: pointer;
+}
+
+.logo:hover  {
+    color: aqua;
+}
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+li:hover {
+    transform: scale(1.1);
+}
+
+.form .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    border-bottom: solid rgb(16, 176, 230);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box {
+    background: rgb(0,0,0,0.5);
+    border-radius: 15px;
+    
+}
+
+.input-field {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(16, 176, 230);
+    margin: 5px 0;
+    padding: 8px 0;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    background: none;
+    height: 30px;
+    width: 250px;
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 50px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(0,0,0,0.5);
+    color: white;
+    border:  1px solid rgb(16, 176, 230);
+    display: flex;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: aqua;
+    transform: scale(1.1);
+}
+
+.button-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+i {
+    color: white;
+    margin-left: 10px;
+}
+
+button {
+    margin: auto;
+}
+
