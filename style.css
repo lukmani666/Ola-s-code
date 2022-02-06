@@ -38,6 +38,7 @@ ul {
     font-size: x-large;
     font-weight: bolder;
     margin-right: 500px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
