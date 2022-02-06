@@ -29,6 +29,7 @@ nav img {
     cursor: pointer;
 }
 
+
 ul {
     list-style-type: none;
     margin-left: 60px;
@@ -66,6 +67,7 @@ ul {
 .navbar ul li {
     margin-left: 20px;
     text-decoration: none;
+    
 }
 
 a:hover {
@@ -114,4 +116,70 @@ p {
 
 image {
     width: 10px;
+}
+
+.menu-icon {
+    width: 25px;
+    display: none;
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .navbar {
+        width: 750px;
+    }
+
+    nav ul {
+        width: 100%;
+        position: absolute;
+        margin-top: 71px;
+        right: 0;
+        z-index: 2;
+        background: black;
+    }
+
+nav ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+    .box {
+        width: 400px;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        margin-right: 100px;
+        margin-top: 50px;
+        width: 30px;
+        
+    }
+
+    .navbar {
+        height: 100%;
+    }
+
+    nav img {
+        margin-top: -80px;
+        width: 60px;
+    }
+
+    .navbar .logo {
+        margin-top: -80px;
+        margin-left: 30px;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    
 }
