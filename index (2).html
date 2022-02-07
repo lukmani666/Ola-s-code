@@ -10,10 +10,11 @@
 
     <body>
         <nav class="navbar">
+            <img src="bars-solid (1).svg" class="menu-icon" onclick="togglemenu()">
             <div class="container">
                 <img src="car.png" alt="">
                 <div class="logo">Ola's Motors</div>
-                <ul class="nav">
+                <ul id="menuList">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -65,5 +66,25 @@
                 </div>
             </div>
         </section>
+
+        <script>
+
+            var menulist = document.getElementById("menuList");
+
+            menulist.style.maxHeight = "0px";
+
+            function togglemenu(){
+
+                if(menulist.style.maxHeight == "0px")
+                    {
+                        menulist.style.maxHeight = "130px";
+                    }
+                else
+                    {
+                        menulist.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+
     </body>
 </html>
