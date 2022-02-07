@@ -127,7 +127,8 @@ image {
 
 @media only screen and (max-width:700px) {
     .navbar {
-        width: 750px;
+        width: 375px;
+        height: 100%;
     }
 
     nav ul {
@@ -146,19 +147,23 @@ nav ul li {
 }
 
     .box {
-        width: 400px;
+        width: 250px;
     }
 
+    .box img {
+        width: 250px;
+    }
     .container {
-        width: 750px;
+        width: 375px;
     }
 
     .menu-icon {
         display: block;
         float: right;
-        margin-right: 100px;
+        margin-right: 20px;
         margin-top: 50px;
-        width: 30px;
+        width: 25px;
+        margin-bottom: 50px;
         
     }
 
@@ -167,13 +172,14 @@ nav ul li {
     }
 
     nav img {
-        margin-top: -80px;
-        width: 60px;
+        margin-top: -140px;
+        width: 40px;
     }
 
     .navbar .logo {
-        margin-top: -80px;
-        margin-left: 30px;
+        margin-top: -140px;
+        margin-left: 20px;
+        font-size: 16px;
     }
 
     #menuList {
