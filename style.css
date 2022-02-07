@@ -132,7 +132,7 @@ image {
     }
 
     nav ul {
-        width: 375px;
+        width: 100%;
         position: absolute;
         margin-top: 71px;
         right: 0;
