@@ -178,13 +178,14 @@ button {
 
     .container {
         width: 100%;
+        overflow: hidden;
         
     }
 
     .menu-icon {
         display: block;
         position: absolute;
-        margin-left: 270px;
+        margin-left: 250px;
         width: 25px;
         
         
