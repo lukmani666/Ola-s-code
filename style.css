@@ -22,6 +22,7 @@ body {
     color: white;
     height: 80px;
     width: 100%;
+    position: fixed;
 }
 nav img {
     background: white;
@@ -98,6 +99,22 @@ li:hover {
     border-radius: 10px;
 }
 
+.box-section {
+    background: white;
+    margin: 20px 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box-section img {
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 h1 {
     font-family: cursive;
     font-size: x-large;
@@ -145,12 +162,23 @@ p {
         overflow: hidden;
     }
 
+    .box-section {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 110px;
+    }
+
+    .box-section img {
+        margin: auto;
+        width: 100%;
+    }
+
     .box {
         margin: auto;
         width: 100%;
         margin-bottom: 10px;
         margin-top: 20px;
-
     }
 
     .box img {
@@ -179,8 +207,8 @@ p {
 
     .navbar ul li {
         display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         margin-right: 30px;
         height: 15px;
         
