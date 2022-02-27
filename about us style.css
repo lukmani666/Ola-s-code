@@ -184,7 +184,7 @@ footer a {
     text-decoration: none;
 }
 
-footer .social-media {
+.social-media {
     float: right;
     margin-top: -35px;
     margin-right: 40px;
@@ -263,7 +263,7 @@ footer .social-media {
     }
 
     footer {
-        height: 120px;
+        height: 140px;
     }
 
     footer p {
@@ -271,6 +271,12 @@ footer .social-media {
         margin-top: -20px;
         text-align: center;
         font-size: 14px;
+    }
+
+    .social-media {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
     }
 }
 
@@ -307,11 +313,5 @@ footer .social-media {
     #menuList {
         overflow: hidden;
         transition: 0.5s;
-    }
-
-    .social-media {
-        float: none;
-        text-align: center;
-        margin-top: 15px;
     }
 }
