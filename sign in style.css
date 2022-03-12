@@ -159,6 +159,11 @@ button {
     border-radius: 1px;
 }
 
+#line {
+    display: none;
+}
+
+
 @media only screen and (max-width: 952px) {
     .navbar {
         width: 100%;
@@ -231,7 +236,7 @@ button {
         top: 110px;
         right: 0;
         z-index: 2;
-        text-align: right;
+        text-align: center;
     }
 
     .navbar ul li {
@@ -240,12 +245,19 @@ button {
         margin-bottom: 15px;
         margin-right: 30px;
         height: 15px;
-        
+        text-transform: uppercase;
     }
     
     #menuList {
         overflow: hidden;
         transition: 0.5s;
+    }
+
+    #line {
+        display: block;
+        height: 0.5px;
+        background: black;
+        border: none;
     }
 }
 
