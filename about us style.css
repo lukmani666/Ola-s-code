@@ -78,13 +78,6 @@ li:hover {
     transform: scale(1.1);
 }
 
-.menu-icon {
-    width: 20px;
-    border-radius: 1px;
-    float: right;
-    display: none;
-}
-
 .header {
     background: #483d8b;
     width: 100%;
@@ -196,6 +189,16 @@ footer a {
     display: none;
 }
 
+.checkbtn {
+    font-size: 35px;
+    float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 
 @media (max-width: 952px) {
     .navbar {
@@ -287,9 +290,9 @@ footer a {
 }
 
 @media (max-width: 600px) {
-    .menu-icon {
+    .checkbtn {
         display: block;
-        margin-top: -30px;
+        margin-top: -45px;
     }
 
     .header {

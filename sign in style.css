@@ -153,16 +153,19 @@ button {
     margin: auto;
 }
 
-.menu-icon {
-    width: 20px;
-    display: none;
-    border-radius: 1px;
-}
-
 #line {
     display: none;
 }
 
+.checkbtn {
+    font-size: 35px;
+    float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
 
 @media only screen and (max-width: 952px) {
     .navbar {
@@ -222,10 +225,9 @@ button {
 }
 
 @media (max-width: 600px){
-    .menu-icon {
+    .checkbtn {
         display: block;
-        margin-top: -30px;
-        float: right;
+        margin-top: -45px;
     }
 
     ul {
