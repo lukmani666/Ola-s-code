@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -48,10 +49,6 @@ ul {
     margin-left: 70px;
 }
 
-.logo:hover {
-    color: aqua;
-}
-
 .navbar .container {
     height: 100%;
     width: 100%;
@@ -79,7 +76,7 @@ li:hover {
 }
 
 .header {
-    background: #483d8b;
+    background: #100c2b;
     width: 100%;
     color: white;
     height: 180px;
@@ -116,7 +113,7 @@ section h3 {
 
 hr {
     height: 0.5px;
-    background: #483d8b;
+    background: #100c2b;
     margin-left: 50px;
     margin-right: 50px;
     border: none;
@@ -155,13 +152,13 @@ h3 {
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: -15px;
-    color: #483d8b;
+    color: #100c2b;
 }
 
 footer {
     margin-left: 0px;
     margin-top: 30px;
-    background: #483d8b;
+    background: #100c2b;
     height: 75px;
     color: white;
 }

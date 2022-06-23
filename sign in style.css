@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -50,12 +51,6 @@ ul {
     margin-left: 70px;
     cursor: pointer;
 }
-
-.logo:hover  {
-    color: aqua;
-}
-
-
 .navbar .container {
     height: 100%;
     width: 100%;
@@ -99,7 +94,8 @@ h1 {
 .box {
     background: rgb(0,0,0,0.7);
     border-radius: 15px;
-    
+    width: 300px;
+    height: 300px;
 }
 
 .input-field {
@@ -124,14 +120,17 @@ h1 {
 .btn {
     margin-bottom: 10px;
     margin-top: 20px;
-    padding: 0 50px;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
     background: rgb(0,0,0,0.5);
     color: white;
     border:  1px solid rgb(16, 176, 230);
     display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .btn:hover {
