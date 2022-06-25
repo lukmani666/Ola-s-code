@@ -101,7 +101,10 @@ h1 {
     background: rgb(0,0,0,0.7);
     border-radius: 15px;
     width: 380px;
+<<<<<<< HEAD
     margin-top: 150px;
+=======
+>>>>>>> e99ba741aa5be5f7d816895ed9cbd4e01d7cef9e
 }
 
 .input-field {

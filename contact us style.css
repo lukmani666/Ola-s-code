@@ -53,7 +53,12 @@ ul {
     font-size: x-large;
     font-weight: bolder;
     cursor: pointer;
+<<<<<<< HEAD
     margin-left: 20px;
+=======
+    margin-top: -50px;
+    margin-left: 70px;
+>>>>>>> e99ba741aa5be5f7d816895ed9cbd4e01d7cef9e
 }
 
 .navbar .container {

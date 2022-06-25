@@ -191,6 +191,7 @@ p {
         width: 100%;
         overflow: hidden;
     }
+<<<<<<< HEAD
     .containers {
         width: 100%;
         overflow: hidden;
@@ -198,6 +199,11 @@ p {
 
     .box {
         width: auto;
+=======
+
+    .box {
+        width: 100%;
+>>>>>>> e99ba741aa5be5f7d816895ed9cbd4e01d7cef9e
         margin-bottom: 10px;
         margin-top: 20px;
         margin-right: 20px;
@@ -213,6 +219,19 @@ p {
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .box-ontop2 img{
+        width: 100%;
+    }
+    .box-ontop img{
+        width: 100%;
+    }
+    .box-ontop{
+        width: 100%;
+    }
+    .box-ontop2{
+        width: 100%;
+        margin-top: 20px;
     }
     .box-ontop2 img{
         width: 100%;
