@@ -10,9 +10,11 @@
 
     <body>
         <nav class="navbar">
-            <div class="container">
-                <img src="car.png" alt="">
-                <div class="logo">Ola's Motors</div>
+            <div class="containers">
+                <div class="top">
+                    <img src="car.png" alt="">
+                    <div class="logo">Ola's Motors</div>
+                </div>
                 <input type="checkbox" id="check">   
                 <label for="check" class="checkbtn">
                     <i class="fas fa-bars" onclick="togglemenu()"></i>
@@ -21,22 +23,21 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <hr id="line">
                     <li>
                         <a href="index 5.html">Contact us</a>
                     </li>
-                    <hr id="line">
                     <li>
                         <a href="index 4.html">About us</a>
                     </li>
-                    <hr id="line">
                     <li>
                         <a href="index (2).html">Sign up</a>
                     </li>
-                    <hr id="line">
                     <li>
                         <a href="index 3.html">Sign in</a>
                     </li>
+                    <label for="" class="times">
+                        <i class="fas fa-times" onclick="togglemenu()"></i>
+                    </label>
                 </ul>
             </div>
         </nav>
@@ -67,9 +68,7 @@
                         <input type="checkbox">
                     </div>
                     <p>I agree to terms and conditions</p>
-                    <button type="button" class="btn">
-                        <span class="button-text">Sign up</span>
-                    </button>
+                    <button type="button" class="btn">Sign up</button>
                 </div>
             </div>
         </section>
@@ -84,7 +83,7 @@
 
                 if(menulist.style.maxHeight == "0px")
                     {
-                        menulist.style.maxHeight = "236px";
+                        menulist.style.maxHeight = "100vh";
                     }
                 else
                     {

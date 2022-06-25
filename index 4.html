@@ -12,9 +12,11 @@
 
 <body>
     <nav class="navbar">
-        <div class="container">
-            <img src="car.png" alt="">
-            <div class="logo">Ola's Motors</div>
+        <div class="containers">
+            <div class="top">
+                <img src="car.png" alt="">
+                <div class="logo">Ola's Motors</div>
+            </div>
             <input type="checkbox" id="check">   
                 <label for="check" class="checkbtn">
                     <i class="fas fa-bars" onclick="togglemenu()"></i>
@@ -23,22 +25,21 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <hr id="line">
                 <li>
                     <a href="index 5.html">Contact us</a>
                 </li>
-                <hr id="line">
                 <li>
                     <a href="index 4.html">About us</a>
                 </li>
-                <hr id="line">
                 <li>
                     <a href="index (2).html">Sign up</a>
                 </li>
-                <hr id="line">
                 <li>
                     <a href="index 3.html">Sign in</a>
                 </li>
+                <label for="" class="times">
+                    <i class="fas fa-times" onclick="togglemenu()"></i>
+                </label>
             </ul>
 
         </div>
@@ -55,13 +56,13 @@
         <br>
         <h3>What We Do At Ola's Motor </h3>
         <hr>
-        <img src="about car.jpg" alt="">
+        <img src="car-6603726_1920.jpg" alt="">
     </section>
 
     <div class="image-list">
         <div class="container">
-            <img src="car model.jpg" alt="">
-            <img src="ola's car.jpg" alt="">
+            <img src="maserati-gran-turismo-1649119.jpg" alt="">
+            <img src="coat-of-arms-349889_1920.jpg" alt="">
         </div>
     </div>
     
@@ -133,7 +134,7 @@
 
             if(menulist.style.maxHeight == "0px")
                 {
-                    menulist.style.maxHeight = "236px";
+                    menulist.style.maxHeight = "100vh";
                 }
             else
                 {

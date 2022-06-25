@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +12,13 @@ body {
     color: #333;
 }
 
-.container {
+.containers {
     width: 100%;
     padding: 0 30px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar {
@@ -23,6 +27,12 @@ body {
     height: 80px;
     width: 100%;
     position: fixed;
+    display: flex;
+    align-items: center;
+}
+.top{
+    display: flex;
+    align-items: center;
 }
 
 nav img {
@@ -30,26 +40,20 @@ nav img {
     width: 50px;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 15px;
 }
 
 ul {
     list-style-type: none;
     margin-left: 60px;
-    float: right;
-    margin-top: -30px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     font-size: x-large;
     font-weight: bolder;
     cursor: pointer;
-    margin-top: -50px;
-    margin-left: 70px;
-}
-
-.logo:hover {
-    color: aqua;
+    margin-left: 20px;
 }
 
 .navbar .container {
@@ -68,7 +72,6 @@ ul {
 .navbar ul li {
     margin-left: 20px;
     text-decoration: none;
-    display: inline-block;
 }
 
 a:hover {
@@ -80,7 +83,7 @@ li:hover {
 }
 
 .header {
-    background: #483d8b;
+    background: #100c2b;
     width: 100%;
     color: white;
     height: 180px;
@@ -118,7 +121,7 @@ section .box {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #483d8b;
+    color: #100c2b;
     border-radius: 20px;
 }
 
@@ -146,7 +149,7 @@ section .box {
 .box-active hr {
     margin-left: 70px;
     margin-right: 70px;
-    background: #483d8b;
+    background: #100c2b;
     border: none;
     height: 0.5px;
 }
@@ -158,7 +161,7 @@ section .box {
     font-family: sans-serif;
     margin-top: 20px;
     margin-left: 70px;
-    color: #483d8b;
+    color: #100c2b;
 }
 
 .box-active p {
@@ -173,19 +176,21 @@ h4 {
     font-weight: bold;
     font-family: sans-serif;
     margin-top: 20px;
-    color: #483d8b;
+    color: #100c2b;
 }
 
 .btn {
     margin-left: 120px;
-    text-transform: uppercase;
     font-weight: bold;
-    color: #483d8b;
+    color: #100c2b;
     height: 30px;
-    border-color: #483d8b;
+    border-color: #100c2b;
     border-radius: 10px;
     cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 10px;
+    transition: 0.5s;
 }
 .btn:hover {
     color: black;
@@ -205,6 +210,9 @@ h4 {
     background: #333;
     height: 0.5px;
 }
+.small-12 a{
+    text-decoration: none;
+}
 
 .small-12 a:hover {
     color: blue;
@@ -219,7 +227,7 @@ h4 {
 footer {
     margin-left: 0px;
     margin-top: 30px;
-    background: #483d8b;
+    background: #100c2b;
     height: 75px;
     color: white;
 }
@@ -248,10 +256,6 @@ footer a {
     margin-top: 17px;
 }
 
-#line {
-    display: none;                                                           
-}
-
 .checkbtn {
     font-size: 30px;
     float: right;
@@ -260,6 +264,10 @@ footer a {
 
 #check {
     display: none;
+}
+.times{
+    font-size: 30px;
+    visibility: hidden;
 }
 
 @media (max-width: 952px){
@@ -271,17 +279,19 @@ footer a {
 
     nav img {
         width: 45px;
-        margin-top: 17px;
-        margin-left: -5px;
+       
     }
 
     .logo {
         font-size: 25px;
-        margin-left: 50px;
-        margin-top: -45px;
     }
 
     .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 0 30px;
+    }
+    .containers {
         width: 100%;
         overflow: hidden;
     }
@@ -385,36 +395,42 @@ footer a {
 @media (max-width: 600px) {
     .checkbtn {
         display: block;
-        margin-top: -45px;
     }
 
+    .times{
+        visibility: visible;
+        position: absolute;
+        top: 1rem;
+        right: 25px;
+    }
+    li a{
+      margin-top: 90px; 
+      display: grid; 
+      align-items: center;
+    }
+    ul a{
+        height: 45px;
+        color: aqua;
+        margin-bottom: -60px;
+    }
     ul {
         position: absolute;
-        background: #333;
+        background: #21222A;
         width: 100%;
         height: 100vh;
-        top: 110px;
+        top: 0;
         right: 0;
         z-index: 2;
-    }
-    .navbar ul li {
         display: block;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        height: 15px;
+    }
+
+    .navbar ul li {
         text-transform: uppercase;
-        text-align: center;
     }
 
     #menuList {
         overflow: hidden;
+        margin: 0;
         transition: 0.5s;
-    }
-
-    #line {
-        display: block;
-        height: 0.5px;
-        background: black;
-        border: none;
     }
 }
