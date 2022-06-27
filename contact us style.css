@@ -284,13 +284,13 @@ footer a {
 
     nav img {
         width: 45px;
-       
+        margin-left: -15px;
     }
 
     .logo {
         font-size: 25px;
+        margin-left: 8px;
     }
-
     .container {
         width: 100%;
         overflow: hidden;
